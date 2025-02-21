@@ -1,8 +1,16 @@
-# React + Vite
+# READ.md
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## News Website -Mobile Responsive
 
-Currently, two official plugins are available:
+- This is a static web page doesn't have any function, but it is responsive to mobile at max-width of 500px
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**GitHub Link**
+(Mission01[https://github.com/harika2625/M01-ADV/tree/Harika])
+
+## Technologies used
+
+- HTML
+- CSS
+- React.jsx
+
+## &#x2728; Author - Harika
