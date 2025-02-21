@@ -1,0 +1,63 @@
+.Aside {
+  height: 40vh;
+  background-color: rgb(214, 243, 205);
+  display: flex;
+  justify-content: space-between;
+}
+.Aside .BoxA {
+  height: 30vh;
+  margin: 1rem;
+}
+.Aside .BoxB {
+  height: 30vh;
+  width: 30vh;
+  margin: 1rem;
+}
+.Aside .BoxC {
+  height: 30vh;
+  width: 30vh;
+  margin: 1rem;
+}
+.BoxMap img {
+  width: 25vh;
+  height: 30vh;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.BoxMap {
+  display: block;
+}
+.BoxMap p {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+@media (max-width: 500px) {
+  .Aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 1000px;
+    padding: 5rem 5rem;
+    gap: 2rem;
+  }
+  .BoxMap {
+    margin-top: -3rem;
+  }
+  .BoxAMap img {
+    margin-left: 2rem;
+  }
+  .BoxMap p {
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+  .BoxMap {
+    margin-left: 3rem;
+  }
+}

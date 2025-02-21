@@ -1,0 +1,91 @@
+.Main {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 60vh;
+}
+.Topsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+}
+.TopsectionLeft {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 2rem;
+  width: 150vh;
+  margin-left: 10rem;
+  height: 60vh;
+}
+.TopsectionLeftHeading {
+  font-size: 40px;
+  padding: 0.5rem;
+  margin-left: -10rem;
+}
+.TopsectionRight {
+  margin-bottom: 5rem;
+}
+.TopsectionRight img {
+  height: 50vh;
+  padding: 1rem;
+  margin: 0rem;
+}
+.searchbar {
+  width: 30vh;
+  height: 4vh;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5rem;
+}
+.search label {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 4vh;
+  width: 7vh;
+  padding: 0.5rem;
+  margin: 0rem;
+}
+
+@media (max-width: 500px) {
+  .Topsection {
+    display: block;
+  }
+  .TopsectionLeft {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  .TopsectionLeftHeading {
+    font-size: 18px;
+    padding: 1rem;
+    line-height: 1.6rem;
+    margin: 0rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .TopsectionRight {
+    display: block;
+    margin-top: -22rem;
+  }
+  .TopsectionRight img {
+    width: 100%;
+    height: 30vh;
+    padding: 1.3rem;
+    margin: 0rem;
+  }
+  .search {
+    width: 100%;
+    margin: 0rem;
+    margin-top: -3rem;
+  }
+}
